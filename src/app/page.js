@@ -1,7 +1,7 @@
 import Image from "next/image";
-
-export default function Home() {
+import Home from '../app/(pages)/home/page.jsx'
+export default function page() {
   return (
-    <div className="bg-pink900">Hello world</div>
+    <Home/>
   );
 }

@@ -6,8 +6,8 @@ import QuemSomos from '../../components/QuemSomos/index.jsx'
 
 export default function page() {
   return (
+  <>
     <section className="bg-[url('/Virterios-lp.png')] bg-cover bg-center h-screen w-full">
-      <>
     <Header />
       <article className="pl-25  h-[65%] w-[60%] flex flex-col justify-evenly">
         <h2 className="text-white font-bold text-3xl w-[60%]">
@@ -27,8 +27,10 @@ export default function page() {
       </article>
 
       <ServiceSection />
+      <QuemSomos/>
     </section>
-    <QuemSomos/>
+
+    
     </>
   );
 }

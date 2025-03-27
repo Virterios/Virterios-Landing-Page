@@ -2,10 +2,13 @@ import React from "react";
 import Header from "../../components/header/index.jsx";
 import ServiceSection from "@/app/components/ServiceSection";
 
+import QuemSomos from '../../components/QuemSomos/index.jsx'
+
 export default function page() {
   return (
     <section className="bg-[url('/Virterios-lp.png')] bg-cover bg-center h-screen w-full">
-      <Header />
+      <>
+    <Header />
       <article className="pl-25  h-[65%] w-[60%] flex flex-col justify-evenly">
         <h2 className="text-white font-bold text-3xl w-[60%]">
           Seu Site Profissional Pronto para{" "}
@@ -25,5 +28,7 @@ export default function page() {
 
       <ServiceSection />
     </section>
+    <QuemSomos/>
+    </>
   );
 }

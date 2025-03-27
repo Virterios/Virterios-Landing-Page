@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 export default function index() {
   return (
-    <header className='flex justify-center items-center w-full h-40'>
-        <nav className='flex justify-around items-center w-[80%] h-[50%] bg-gradient-to-r from-[#004487] to-[#0077ED] rounded-[6px] list-none font-bold'>
+    <header className='absolute top-5 w-full'>
+        <nav className='flex justify-around items-center w-[80%] h-[50%] bg-gradient-to-r from-[#004487] to-[#0077ED] rounded-[6px] list-none font-bold text-white'>
             <img src="" alt="Logo virterios" />
             <li >Serviços</li>
             <li >Modelos</li>

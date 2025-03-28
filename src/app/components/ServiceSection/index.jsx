@@ -2,10 +2,10 @@ import ServiceCard from "../UI/ServiceCard";
 
 export default function index() {
   return (
-    <div className="h-screen">
-      <div className="mt-5 mb-5 h-5/12 flex justify-center items-center">
+    <div className="lg:h-screen ">
+      <div className="mt-20  mb-20 lg:mb-0  lg:mt-10 h-5/12 flex justify-center items-center">
         <div className="w-6/12 text-center">
-          <h2 className="text-2xl  lg:text-5xl font-semibold flex flex-col text-[#FF7F00] mb-4">
+          <h2 className="text-3xl  lg:text-5xl font-semibold flex flex-col text-[#FF7F00] mb-4">
             Se tem problema, tem solução
             <span>Onde tem solução, tem Virterios</span>
           </h2>

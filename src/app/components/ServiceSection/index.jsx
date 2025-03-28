@@ -15,20 +15,20 @@ export default function index() {
         </p>
       </div> */}
 
-      <section className="flex justify-center items-center h-screen">
+      <section className="flex flex-col lg:flex-row justify-center items-center lg:h-screen">
         <ServiceCard
-          titulo="E-commerce"
-          imagem="/img/ecommerce.jpg"
+          title="E-commerce"
+          image="/supermarket.jpg"
           link="/ecommerce"
         />
         <ServiceCard
-          titulo="E-commerce"
-          imagem="/img/ecommerce.jpg"
+          title="E-commerce"
+          image="/supermarket.jpg"
           link="/ecommerce"
         />
         <ServiceCard
-          titulo="E-commerce"
-          imagem="/img/ecommerce.jpg"
+          title="E-commerce"
+          image="/supermarket.jpg"
           link="/ecommerce"
         />
       </section>

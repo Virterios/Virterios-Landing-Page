@@ -2,7 +2,7 @@ import ServiceCard from "../UI/ServiceCard";
 
 export default function index() {
   return (
-    <div className="lg:h-screen ">
+    <div className=" border-8">
       <div className="mt-20  mb-20 lg:mb-0  lg:mt-10 h-5/12 flex justify-center items-center">
         <div className="w-6/12 text-center">
           <h2 className="text-3xl  lg:text-5xl font-semibold flex flex-col text-[#FF7F00] mb-4">
@@ -17,7 +17,7 @@ export default function index() {
         </div>
       </div>
 
-      <section className="flex flex-col lg:flex-row justify-center items-center">
+      <section className="flex flex-col lg:flex-row justify-center items-center flex-wrap lg:h-">
         <ServiceCard
           title="E-commerce"
           image="/supermarket.jpg"

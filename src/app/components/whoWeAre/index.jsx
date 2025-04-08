@@ -4,13 +4,13 @@ import Card from '../UI/WhoWeAreCard'
 export default function index() {
   return (
     <section>
-    <div className='flex justify-around items-center'>    
+    <div className='flex-col lg:flex-row flex justify-around items-center'>    
         <img src="/logo.png" alt="imagem da logo da empresa Virterios" />
-      <div className='justify-evenly flex flex-col items-center h-125 w-220'>
-        <h2 className='text-[#00376B] text-[54px] font-medium'>Quem somos</h2>
-        <p className=' w-193 text-[20px]'>A Virterios nasceu do desejo genuíno de ajudar. Tudo começou com um grupo de profissionais apaixonados por tecnologia e inovação, que compartilhavam . O que era apenas uma troca de ideias entre colegas logo se transformou em uma iniciativa maior: criar um espaço onde qualquer pessoa pudesse encontrar respostas, aprender e colaborar.
+      <div className='justify-evenly flex flex-col items-center h-125 lg:w-6/12 w-2/2 border-2 p-5'>
+        <h2 className='text-[#00376B] text-2xl lg:text-4xl font-bold'>Quem somos</h2>
+        <p className='text-sm lg:text-[20px]'>A Virterios nasceu do desejo genuíno de ajudar. Tudo começou com um grupo de profissionais apaixonados por tecnologia e inovação, que compartilhavam . O que era apenas uma troca de ideias entre colegas logo se transformou em uma iniciativa maior: criar um espaço onde qualquer pessoa pudesse encontrar respostas, aprender e colaborar.
         </p>
-        <p className=' w-193 text-[20px] font-bold'>Seja bem-vindo à Virterios. Aqui, o conhecimento se transforma em solução.</p>
+        <p className='text-sm lg:text-[20px] font-bold'>Seja bem-vindo à Virterios. Aqui, o conhecimento se transforma em solução.</p>
       </div>
     </div>
     <div className='h-120 flex justify-evenly items-center'>
